@@ -1,0 +1,13 @@
+[2025-11-13 08:41:23] INFO  User 'admin' logged in from IP 192.168.1.15
+[2025-11-13 08:42:10] WARNING Disk space on '/dev/sda1' is 85% full
+[2025-11-13 08:45:02] ERROR Failed to connect to database 'users_db' (timeout)
+[2025-11-13 08:47:55] INFO  User 'john_doe' uploaded file 'report.pdf' (2.4 MB)
+[2025-11-13 08:48:01] INFO  User 'admin' deleted file 'old_backup.zip'
+[2025-11-13 08:50:17] ERROR Unauthorized access attempt from IP 10.0.0.55
+[2025-11-13 09:02:11] INFO  User 'mary' logged out
+[2025-11-13 08:50:17] ERROR Unauthorized access attempt from INFO 10.0.0.55
+[2025-11-13 09:10:43] WARNING CPU usage exceeded 90% for 3 minutes
+[2025-11-13 09:10:43] WARNING CPU usage ERROR-error exceeded 90% for 3 minutes
+[2025-11-13 09:12:09] INFO  Scheduled backup completed successfully
+[2025-11-13 09:15:55] ERROR Disk read failure on '/dev/sda1'
+[2025-11-13 09:30:00] INFO  User 'john_doe' logged in from IP 192.168.1.22
