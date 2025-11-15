@@ -14,6 +14,12 @@ echo "hodnota y je ${y} a hodnota x je ${x}"
 
 echo "====================================================================================="
 
+if [ $# -ne 2 ]; then
+    echo "Chyba: Musíš zadat přesně 2 parametry."
+    echo "Použití: $0 parametr1 parametr2"
+    exit 1
+fi
+
 porovnani_cisel() {
 prvni=$1
 druhe=$2
@@ -25,12 +31,5 @@ druhe=$2
   fi
 }
 
-porovnani_cisel $1 $2 # volani fce s parametry, ktere jsou predany pri spusteni skriptu testik.sh
+porovnani_cisel $1 $2 # volani fce s dvema parametry, ktere jsou predany pri spusteni skriptu testik.sh
 
-echo "====================================================================================="
-
-if [ $# -ne 2 ]; then
-    echo "Chyba: Musíš zadat přesně 2 parametry."
-    echo "Použití: $0 parametr1 parametr2"
-    exit 1
-fi
