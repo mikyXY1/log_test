@@ -6,7 +6,9 @@ y=${cislo}
 
 x=${name}
 
-echo "${y} a ${x}"
+echo "${y} a ${x}"  #vypise 123 a karel
+
+echo "${cislo} a ${name}"    #vypise 123 a karel / totez co nahore
 
 echo "hodnota y je ${y} a hodnota x je ${x}"
 
@@ -24,3 +26,11 @@ druhe=$2
 }
 
 porovnani_cisel $1 $2 # volani fce s parametry, ktere jsou predany pri spusteni skriptu testik.sh
+
+echo "====================================================================================="
+
+if [ $# -ne 2 ]; then
+    echo "Chyba: Musíš zadat přesně 2 parametry."
+    echo "Použití: $0 parametr1 parametr2"
+    exit 1
+fi
