@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+
 echo "-------"
 
 name="server_log.txt"
